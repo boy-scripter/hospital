@@ -64,7 +64,7 @@ input::-webkit-input-placeholder {
     font-size: 16px;
     line-height: 3;
 }
-input[type="email"]:is(:active,:hover){
+input[type="email"]:is(:active,:hover,:focus){
 outline: none;
 }
 
